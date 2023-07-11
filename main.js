@@ -188,7 +188,7 @@ function setButton() {
 
 function addScript(code, token, id) {
   var elem = document.createElement("script");
-  elem.src = api + encodeURIComponent(code) + '&access_token=' + token + '&callback=checkFri' + id + '&v=5.69';
+  elem.src = api + encodeURIComponent(code) + '&access_token=' + token + '&callback=checkFri' + id + '&v=5.130';
   document.head.appendChild(elem);
 }
 
